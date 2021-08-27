@@ -1,0 +1,118 @@
+*{box-sizing: border-box;
+    padding: 0%;
+    margin: 0;
+    font-family: 'Roboto';
+}
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    background-color:navy;
+    color: white;
+    height: 30px;
+}
+
+header nav ul li{
+    padding: 0 10px;
+    text-decoration: none;
+    color: white;
+
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+#barranav {
+    background-color: navy;
+    color: white;
+    text-decoration:none ;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.discount {
+    background-color: cyan;
+}
+.store{
+    background-color: #00669F;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    font-weight: lighter;
+}
+
+.profile{
+    position: relative;
+    Width: 300px;
+    Height:510px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color:#F3F3F3;
+    border-radius: 10px 10px 0 0;
+margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#corazon{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 10%;
+}
+
+.profile .profileA{
+    border-radius: 50%;
+    width: 120px;
+    margin: 35% 0 -4% 0;
+}
+
+.profile h2{
+    font-weight: 400;
+}
+
+.profile p{
+    text-align: justify;
+    padding: 0 10px;
+}
+
+.profile button{
+    border: none;
+    background-color: #00669F;
+    color: white;
+    width: 128px;
+    height: 48px;
+}
+
+.batman{
+    background-image: url('../img/baticueva.png');
+}
+
+.harley{
+    background-image: url('../img/fondohq.png');
+}
+
+.botonmas{
+    height:20%;
+    border-radius: 50%;
+    padding: 15px;
+    position: absolute;
+    top: 60%;
+    right: 0.31%;
+}
+
+/* ¿? */
+.copyright {
+    color: blanchedalmond;
+    padding: 10px;
+    background-color: #00669F;
+    text-align: center;
+}

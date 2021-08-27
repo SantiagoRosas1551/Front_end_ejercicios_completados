@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/nuevosuperheroe.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+    <title> Clase_17</title>
+</head>
+<body>
+    <header>
+        <p class="discount">Descuentos 20% en todos los productos</p>
+        <div class="store">
+            <img src="img/Tienda.png" alt="Logo Tienda">
+            <h1>Nombre Tienda</h1>
+        </div>
+        <nav>
+            <ul type="none">
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="registrarme.html">Registrarme</a></li>
+                <li><a href="ingresar.html">Ingresar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="formulariosuper">
+            <header>
+                <h2>¡Añadí a tu super!</h2>
+                <p>Agregá tu personaje favorito completando las opciones</p>
+            </header>
+            
+            <form action="#" method="POST" class="contenido">
+                <div class="columna">
+                    <label for="nombre">*Nombre</label>
+                    <input type="text" name="name" id="nombre" class="ingreso-dato bordes">
+                    <label for="fecha">Fecha</label>
+                    <input type="date" name="date" id="fecha" class="ingreso-dato bordes"> 
+                    <textarea name="textarea" id="comentario" cols="30" rows="10" class="bordes"></textarea>
+                </div>
+                <div class="columna">
+                    <label for="especie">*Especie</label>
+                    <select name="especie" id="especie" class="ingreso-dato bordes">
+                        <option value="unknown">Unknown</option>
+                        <option value="dios">Dios</option>
+                        <option value="eterno">Eterno</option>
+                    </select>
+                    <label for="upload">Agrega una foto</label>
+                    <input type="file" name="file" id="upload" class="ingreso-dato bordes">
+                    <fieldset>
+                        <label for="poderes">Poderes</label>
+                        <label>
+                            <input type="checkbox" name="powers" id="poderes" value="Volar">Volar
+                        </label>
+                        <label>
+                            <input type="checkbox" name="powers" id="poderes" value="Super Inteligencia">Super Inteligencia
+                        </label>
+                        <label>
+                            <input type="checkbox" name="powers" id="poderes" value="Vista de rayos lásers">Vista de rayos lásers
+                        </label>
+                        <label>
+                            <input type="checkbox" name="powers" id="poderes" value="Billetera Gorda">Billetera Gorda
+                        </label>
+                        <hr>
+                        <label for="tipo">Tipo de Personaje</label>
+                        <label>
+                            <input type="radio" name="type" id="tipo" value="Heroe" checked>Héroe / Heroina
+                        </label>
+                        <label>
+                            <input type="radio" name="type" id="tipo" value="Villano">Villano / Villana
+                        </label>
+                    </fieldset>
+                </div>
+            </form>
+            <footer>
+                <button type="submit" class="enviar">Añadir</button>
+            </footer>
+        </section>
+    </main>
+    <footer>
+        <div class="copyright">
+            <p>Todos los derechos reservados a FRONT END 1</p>
+        </div>
+    </footer>
+</body>
+</html>

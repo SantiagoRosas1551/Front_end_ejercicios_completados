@@ -1,0 +1,135 @@
+#lenguaje{
+    color: #F3F3F3;
+    font-family: 'Roboto', sans-serif; ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    
+}
+
+#discount{ 
+  color: #F3F3F3;
+  font-family: 'Roboto', sans-serif; ;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+}
+.menu{
+    background-color: #F0A83E;
+    width: 1025px;
+    color: #FFFFFF;
+}
+.bannerinicio{
+    background-color: #222222;
+    width: 1025px;
+    display: flex;
+    align-content: space-between;
+
+}
+.fondo{
+    background-image: url('../img/bowlverde.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1025px;
+    height: 409px;
+}
+.bienvenida{
+    font-family: 'Roboto', sans-serif; ;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #3C2313;
+    width: 1025px;
+}
+.fas{
+    color: white;
+}
+
+.comederosdiscount{
+    font-family: 'Roboto', sans-serif; ;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #3C2313;
+    font-weight: bold;
+    
+}
+.comederos{
+    font-family: 'Roboto', sans-serif; ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color:  #F0A83E;
+    height: 30px;
+    margin-left: 45%;
+    margin-right: 45%;
+}
+#productos{
+    font-family: 'Roboto', sans-serif; ;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: #3C2313;
+    text-align: center;
+    width: 1025px;
+}
+.nombreart{
+    font-family: 'Roboto', sans-serif; ;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #3C2313;
+    font-weight: bold;
+}
+.juguetes{
+    font-family: 'Roboto', sans-serif; ;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #666666;
+    text-align: center;
+    width: 1025px;
+}
+.precio{
+    font-family: 'Roboto', sans-serif; ;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+color: #F0A83E;
+}
+#bottom {
+    font-family: 'Roboto', sans-serif; 
+font-style: normal;
+font-weight: bold;
+font-size: 10px;
+line-height: 12px;
+color: #FFFFFF;
+background-color: #F0A83E;
+text-align: center;
+width: 1025px;
+}
+
+
+#colordefondo{
+    background: #3C2313;
+    width: 1025px;
+}
+
+.producto{
+    width: 265px;
+height: 268.86px;
+}
+
+#sarasa {
+    color: #666666;
+}
